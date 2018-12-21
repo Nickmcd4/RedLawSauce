@@ -25,23 +25,87 @@ nav {
 .card {
     background-color: #dd2c00;
     font-family: 'Dancing Script', cursive;
+
 }
 
-.HotSauceImage {
+.card-content {
+    color: black;
+
+}
+
+.cardtext {
+    color: black;
+
+}
+
+.Image1 {
     position: absolute;
     top: 0;
     left: 0;
-    height: 300px;
-    width: 100px;
+    height: 60%;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
     z-index: 1;
 }
 
-.FrameImage {
-    top: -100px;
+.Image2 {
+    position: absolute;
+    top: 19%;
     left: 0;
-    height: 300px;
-    width: 100px;
+    height: 60%;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
     z-index: 1;
+}
+
+.Image3 {
+    position: absolute;
+    top: 19%;
+    left: 0;
+    height: 60%;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    z-index: 1;
+}
+
+
+.BarbFrame {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 50%;
+    width: 100%;
+}
+
+.WantedFrame {
+    position: relative;
+    top: 10;
+    left: 0;
+    height: 250px;
+    width: 100%;
+}
+
+.vintageFrame {
+    position: relative;
+    top: 10;
+    left: 0;
+    height: 250px;
+    width: 100%;
+}
+
+.HotSauceImage {
+    background-color: transparent;
+
+}
+
+.card-title {
+    font-weight: bolder;
 }
 
 
